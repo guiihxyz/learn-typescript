@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "lib": ["ESNext"],
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "resolveJsonModule": true,
+        "rootDir": "src",
+        "outDir": "build",
+
+        "baseUrl": "./src",
+        "paths": {
+            "#mathfuncs": [
+                "./ex/37/functions/utils/math/index.ts"
+            ]
+        }
+    },
+
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}

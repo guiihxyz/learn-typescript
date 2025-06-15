@@ -1,0 +1,25 @@
+{
+    "name": "learn-typescript",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsx src/index.ts",
+        "start": "node ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^22.15.29",
+        "tsx": "^4.19.4",
+        "typescript": "^5.8.3"
+    },
+    "imports": {
+        "#mathfuncs": [
+            "./src/ex/37/functions/utils/math/index.js"
+        ]
+    }
+}
